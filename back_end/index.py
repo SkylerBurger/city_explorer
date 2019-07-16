@@ -1,11 +1,12 @@
-import json, os
+from location import Location
+
+import json
+import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse
 
 from dotenv import load_dotenv
 load_dotenv()
-
-from location import Location
 
 
 # ======
@@ -38,6 +39,7 @@ def create_server():
     return HTTPServer(
         ('127.0.0.1', 3000), SimpleHandler
     )
+
 
 def run_forever():
     server = create_server()
