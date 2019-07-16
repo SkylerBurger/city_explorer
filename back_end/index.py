@@ -48,7 +48,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         if parsed_path.path == '/location':
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
-            self.end_headers
+            self.end_headers()
 
             # Break out the queries; {'data':['barcelona']}
             parsed_qs = parse_qs(parsed_path.query)
@@ -57,9 +57,9 @@ class SimpleHandler(BaseHTTPRequestHandler):
             url = f'https://maps.googleapis.com/maps/api/geocode/json?address={query}&key={GEOCODE_API_KEY}'
             location = Location(url, query)
 
-            data = [location.serialize()]
-            json_string = json.dumps(data)
-            print(json_string)
+
+            json_string = json.dumps(location.serialize())
+            print(json_string.encode())
 
             self.wfile.write(json_string.encode())
             return

@@ -1,22 +1,27 @@
-# Project Name
+# City Explorer - Python Backend
 
-**Author**: Your Name(s) Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Author**: Skyler Burger
+**Version**: 1.0.0
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 401 class. (i.e. What's your problem domain?) -->
+For this project we are recreating the back end of the City Explorer website. City Explorer is a front end display for calls to various APIs to surface interesting data about a city you'd like to visit. In a previous course we composed a backend to communicate with various APIs and send the data to City Explorer's front end for rendering. We are currently recreating that back end with Python 3.7
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. This is also an area which you can include any visuals; flow charts, example usage gifs, screen captures, etc.-->
+This project uses a number of modules from the Python Standard Library such as:
+- *http* to create a server instance
+- *urllib* to parse URLs and query strings
+- *requests* to make requests to APIs
+- *os* to access environment variables
+- *json* to package up data for transmission
+
+We also utilized the python-dotenv to popular the environment with variables from a .env file.
 
 ## API
-<!-- Provide detailed instructions for your applications usage. This should include any methods or endpoints available to the user/client/developer. Each section should be formatted to provide clear syntax for usage, example calls including input data requirements and options, and example responses or return values. -->
+- */location*: a call to the location path with a location query will return formatted JSON data revealing the original query, a formatted query string, and the lat/long for the given location.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Added functionality to add and delete some things.
--->
+07-15-2019 6:20pm
+- /location path is functioning and returning formatted JSON data from the Google Geocode API
