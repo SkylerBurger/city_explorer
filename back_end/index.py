@@ -1,9 +1,9 @@
 from location import Location
+from weather import Weather
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-# TODO: Do I still need this?
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -29,5 +29,5 @@ def location_route():
 def weather_route():
     latitude = request.args.get('data[latitude]')
     longitude = request.args.get('data[longitude]')
-    print(latitude, longitude)
-    return request.args
+    result = Weather(latitude, longitude)
+    return jsonify(result.forecast)
