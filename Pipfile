@@ -8,6 +8,7 @@ requests = "*"
 python-dotenv = "*"
 flask = "*"
 flask-cors = "*"
+pytest = "*"
 
 [dev-packages]
 pytest = "*"

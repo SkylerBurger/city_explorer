@@ -22,8 +22,9 @@ class Location:
         url += f'json?address={query}&key={GEOCODE_API_KEY}'
         self.get_location_data(url)
 
-    def get_location_data(self, url):
-        result = requests.get(url).json()
+    def get_location_data(self, url, result=''):
+        if result == '':
+            result = requests.get(url).json()
         self.formatted_query = result['results'][0]['formatted_address']
         self.latitude = result['results'][0]['geometry']['location']['lat']
         self.longitude = result['results'][0]['geometry']['location']['lng']
