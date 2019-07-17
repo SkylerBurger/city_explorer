@@ -1,53 +1,33 @@
 from location import Location
+from weather import Weather
 
-import json
-import os
-from http.server import BaseHTTPRequestHandler, HTTPServer
-from urllib.parse import urlparse
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 from dotenv import load_dotenv
 load_dotenv()
 
 
+# ===
+# APP
+# ===
+app = Flask(__name__)
+CORS(app)
+
+
 # ======
-# SERVER
+# ROUTES
 # ======
-class SimpleHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        parsed_path = urlparse(self.path)
-        if parsed_path.path == '/location':
-            self.send_response(200)
-            self.send_header('Content-type', 'application/json')
-            self.end_headers()
-            location = Location(parsed_path)
-            json_string = json.dumps(location.serialize())
-            print(json_string.encode())
-
-            self.wfile.write(json_string.encode())
-            return
-
-        # For invalid paths
-        self.send_response_only(404)
-        self.end_headers()
+@app.route('/location')
+def location_route():
+    locale = request.args.get('data')
+    result = Location(locale)
+    return jsonify(result.serialize())
 
 
-# =====================
-# SERVER INITIALIZATION
-# =====================
-
-def create_server():
-    return HTTPServer(
-        ('127.0.0.1', 3000), SimpleHandler
-    )
-
-
-def run_forever():
-    server = create_server()
-    try:
-        print(f'Serving on Port: {os.getenv("PORT")}')
-        server.serve_forever()
-    except KeyboardInterrupt:
-        server.server_close()
-        server.shutdown()
-
-run_forever()
+@app.route('/weather')
+def weather_route():
+    latitude = request.args.get('data[latitude]')
+    longitude = request.args.get('data[longitude]')
+    result = Weather(latitude, longitude)
+    return jsonify(result.forecast)
