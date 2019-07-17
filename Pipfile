@@ -9,6 +9,8 @@ python-dotenv = "*"
 flask = "*"
 flask-cors = "*"
 pytest = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
 
 [dev-packages]
 pytest = "*"

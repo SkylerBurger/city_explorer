@@ -1,8 +1,11 @@
 from location import Location
 from weather import Weather
+from config import Config
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -13,6 +16,9 @@ load_dotenv()
 # ===
 app = Flask(__name__)
 CORS(app)
+app.config.from_object(Config)
+db = SQLAlchemy(app)
+migrate = Migrate(app, db)
 
 
 # ======
