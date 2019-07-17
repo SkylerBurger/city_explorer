@@ -2,7 +2,7 @@ import requests
 import os
 
 
-class Location:
+class LocationNormalizer:
     """Normalizes Google Geocode API results for City Explorer."""
     def __init__(self, query):
         """Initializes a Location object."""
@@ -28,7 +28,6 @@ class Location:
         self.formatted_query = result['results'][0]['formatted_address']
         self.latitude = result['results'][0]['geometry']['location']['lat']
         self.longitude = result['results'][0]['geometry']['location']['lng']
-        self.serialize()
 
     def serialize(self):
         return vars(self)

@@ -1,5 +1,5 @@
-from location import Location
-from weather import Weather
+from app.location import LocationNormalizer
+from app.weather import WeatherNormalizer
 from config import Config
 
 from flask import Flask, request, jsonify
@@ -26,8 +26,21 @@ migrate = Migrate(app, db)
 # ======
 @app.route('/location')
 def location_route():
-    locale = request.args.get('data')
-    result = Location(locale)
+    query = request.args.get('data')
+    try:
+        db_check = Location.query.filter_by(search_query=query).first()
+        db_check = db_check.to_dict()
+        db_check = db_check.get('search_query')
+    except AttributeError:
+
+        normalized_data = LocationNormalizer(query)
+        result = normalized_data.serialize()
+
+        location_entry = Location(search_query=result.get('search_query'), formatted_query=result.get('formatted_query'), latitude=result.get('latitude'), longitude=result.get('longitude'))
+        db.session.add(location_entry)
+        db.session.commit()
+        print('***** commited new entry')
+
     return jsonify(result.serialize())
 
 
@@ -35,5 +48,8 @@ def location_route():
 def weather_route():
     latitude = request.args.get('data[latitude]')
     longitude = request.args.get('data[longitude]')
-    result = Weather(latitude, longitude)
+    result = WeatherNormalizer(latitude, longitude)
+    print(result.forecast)
     return jsonify(result.forecast)
+
+from app.models import Location
