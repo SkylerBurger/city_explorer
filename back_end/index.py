@@ -22,7 +22,7 @@ CORS(app)
 def location_route():
     locale = request.args.get('data')
     result = Location(locale)
-    return result.serialize()
+    return jsonify(result.serialize())
 
 
 @app.route('/weather')
