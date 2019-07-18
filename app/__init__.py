@@ -30,18 +30,22 @@ def location_route():
     try:
         db_check = Location.query.filter_by(search_query=query).first()
         db_check = db_check.to_dict()
-        db_check = db_check.get('search_query')
     except AttributeError:
 
         normalized_data = LocationNormalizer(query)
         result = normalized_data.serialize()
+        print(result)
 
-        location_entry = Location(search_query=result.get('search_query'), formatted_query=result.get('formatted_query'), latitude=result.get('latitude'), longitude=result.get('longitude'))
+        location_entry = Location(
+            search_query=result.get('search_query'),
+            formatted_query=result.get('formatted_query'),
+            latitude=result.get('latitude'),
+            longitude=result.get('longitude'))
         db.session.add(location_entry)
         db.session.commit()
-        print('***** commited new entry')
+        return jsonify(result)
 
-    return jsonify(result.serialize())
+    return jsonify(db_check)
 
 
 @app.route('/weather')
