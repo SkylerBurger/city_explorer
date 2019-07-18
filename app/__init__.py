@@ -56,4 +56,9 @@ def weather_route():
     print(result.forecast)
     return jsonify(result.forecast)
 
+@app.route('/events')
+def events_route():
+    formatted_query = request.args.get('data[formatted_query]')
+    
+
 from app.models import Location
