@@ -46,10 +46,13 @@ def weather_route():
     return jsonify(result.dailies)
 
 
-@app.route('/events')
-def events_route():
-    formatted_query = request.args.get('data[formatted_query]')
+@app.route('/yelp')
+def yelp_route():
+    query = request.args.get('data[search_query]')
+    result = Yelp.create_entry(query)
+    return jsonify('[]')
 
 
 from app.models.location import Location
 from app.models.weather import Weather
+from app.models.yelp import Yelp

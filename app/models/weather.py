@@ -12,14 +12,6 @@ class Weather(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     dailies = db.Column(db.Text)
 
-    def to_dict(self):
-        """
-        Returns the weather model's attributes within a dictionary.
-        """
-        return {
-            'dailies': self.dailies
-        }
-
     @staticmethod
     def create_entry(lat, long):
         """

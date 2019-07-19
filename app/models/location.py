@@ -38,7 +38,6 @@ class Location(db.Model):
         url += f'json?address={query}&key={GEOCODE_API_KEY}'
 
         # Request Geocode API data
-        print('*********", url')
         api_data = requests.get(url).json()
         formatted_query = api_data['results'][0]['formatted_address']
         latitude = api_data['results'][0]['geometry']['location']['lat']
