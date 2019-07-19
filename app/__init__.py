@@ -52,7 +52,19 @@ def yelp_route():
     result = Yelp.create_entry(query)
     return jsonify(result.restaurants)
 
+@app.route('/events')
+def events_route():
+    query = request.args.get('data[formatted_query]')
+    result = Events.create_entry(query)
+    return jsonify(result.events)
+
+
+# @app.route('/movies')
+
+# @app.rout('/trails')
+
 
 from app.models.location import Location
 from app.models.weather import Weather
 from app.models.yelp import Yelp
+from app.models.events import Events
