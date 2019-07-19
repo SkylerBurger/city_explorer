@@ -1,7 +1,13 @@
 from app import db
 
+import os
+import requests
+
 
 class Location(db.Model):
+    """
+    Models basic location data for use in requests to location-based APIs.
+    """
     id = db.Column(db.Integer, primary_key=True)
     search_query = db.Column(db.String(256), unique=True)
     formatted_query = db.Column(db.String(256))
@@ -9,6 +15,9 @@ class Location(db.Model):
     longitude = db.Column(db.Float)
 
     def to_dict(self):
+        """
+        Returns the location model's attributes within a dictionary.
+        """
         return {
             'search_query': self.search_query,
             'formatted_query': self.formatted_query,
@@ -16,10 +25,32 @@ class Location(db.Model):
             'longitude': self.longitude
         }
 
+    @staticmethod
+    def create_entry(query):
+        """
+        Takes in a search query.
+        Retrieves Google Geocode API location data.
+        Returns a Location instance.
+        """
+        # Generate API URL
+        GEOCODE_API_KEY = os.getenv('GEOCODE_API_KEY')
+        url = f'https://maps.googleapis.com/maps/api/geocode/json?address={query}&key={GEOCODE_API_KEY}'
+
+        # Request Geocode API data
+        print('*********", url')
+        api_data = requests.get(url).json()
+        formatted_query = api_data['results'][0]['formatted_address']
+        latitude = api_data['results'][0]['geometry']['location']['lat']
+        longitude = api_data['results'][0]['geometry']['location']['lng']
+
+        # Create a Location instance
+        return Location(formatted_query=formatted_query, latitude=latitude,
+                        longitude=longitude, search_query=query)
+
 
 # https://www.eventbriteapi.com/v3/events/search?token=${process.env.EVENTBRITE_API_KEY}&location.address=${request.query.data.formatted_query}
-class Events(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+# class Events(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
     # link = event.url
     # name = event.name.text
     # event_date = event.start.local   but only a slice of it
@@ -27,8 +58,8 @@ class Events(db.Model):
 
 
 # https://api.themoviedb.org/3/search/movie/?api_key=${process.env.MOVIE_API_KEY}&language=en-US&page=1&query=${request.query.data.search_query}
-class Movies(db.Model):
-    pass
+# class Movies(db.Model):
+#     pass
     # title = movie.title
     # overview = movie.overview
     # average_votes = movie.vote_average
@@ -39,8 +70,8 @@ class Movies(db.Model):
 
 
 # https://api.yelp.com/v3/businesses/search?location=${request.query.data.search_query}
-class Yelp(db.Model):
-    pass
+# class Yelp(db.Model):
+#     pass
     # tableName = 'yelps'
     # name = business.name
     # image_url = business.image_url
@@ -50,8 +81,8 @@ class Yelp(db.Model):
 
 
 # https://www.hikingproject.com/data/get-trails?lat=${request.query.data.latitude}&lon=${request.query.data.longitude}&maxDistance=200&key=${process.env.TRAIL_API_KEY}
-class Hikes(db.Model):
-    pass
+# class Hikes(db.Model):
+#     pass
     # name = trail.name
     # location = trail.location
     # length = trail.length
