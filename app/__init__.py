@@ -50,7 +50,7 @@ def weather_route():
 def yelp_route():
     query = request.args.get('data[search_query]')
     result = Yelp.create_entry(query)
-    return jsonify('[]')
+    return jsonify(result.restaurants)
 
 
 from app.models.location import Location

@@ -2,15 +2,6 @@ from app import db
 
 import os
 import requests
-# https://api.yelp.com/v3/businesses/search?location=${request.query.data.search_query}
-# class Yelp(db.Model):
-#     pass
-    # tableName = 'yelps'
-    # name = business.name
-    # image_url = business.image_url
-    # price = business.price
-    # rating = business.rating
-    # url = business.url
 
 
 class Yelp(db.Model):
@@ -26,12 +17,26 @@ class Yelp(db.Model):
         """
         # Generate API URL and headers
         YELP_API_KEY = os.getenv('YELP_API_KEY')
-        url = f'https://api.yelp.com/v3/businesses/search?location={query}?limit=10'
-        print('********', url)
-        # bearer_string = f'Bearer {YELP_API_KEY}'
+        url = f'https://api.yelp.com/v3/businesses/search'
+        url += f'?location={query}&limit=10'
         headers = {"Authorization": f'Bearer {YELP_API_KEY}'}
 
         # Request Yelp API data
         api_data = requests.get(url, headers=headers).json()
+        restaurants = []
+        for result in api_data.get('businesses'):
+            name = result['name']
+            image_url = result['image_url']
+            price = result['price']
+            rating = result['rating']
+            url = result['url']
+            restaurants.append({
+                'name': name,
+                'image_url': image_url,
+                'price': price,
+                'rating': rating,
+                'url': url
+            })
 
-        print('API DATA', api_data)
+        # Create a Yelp instance
+        return Yelp(restaurants=restaurants)
