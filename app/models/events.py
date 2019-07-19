@@ -27,8 +27,6 @@ class Events(db.Model):
 
         # Request Eventbrite API data
         api_data = requests.get(url).json()
-        print(api_data)
-        print('*****', url)
         events = []
         for event in api_data['events'][:10]:
             link = event['url']
@@ -47,4 +45,3 @@ class Events(db.Model):
 
         # Create an Events instance
         return Events(events=events)
-
