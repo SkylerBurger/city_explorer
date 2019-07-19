@@ -6,7 +6,7 @@ from time import localtime, strftime
 # WEATHER
 # URL for localhost testing:
 # http://localhost:5000/weather?data%5Bformatted_query%5D=Barcelona%2C%20Spain&data%5Blatitude%5D=41.3850639&data%5Blongitude%5D=2.1734035&data%5Bsearch_query%5D=barcelona
-class Weather:
+class WeatherNormalizer:
     def __init__(self, lat, long):
         self.generate_api_url(lat, long)
 
