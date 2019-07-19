@@ -27,6 +27,7 @@ For this project I am recreating the back end of the [City Explorer](https://cod
 - **/location**: a call to the location path with a location query will return formatted JSON data revealing the original query, a formatted query string, and the lat/long for the given location.
 - **/weather**: a call to the weather path with a latitude and longitue will return a list of dicts containing times and summarys for a week-long forecast.
 - **/yelp**: a call to the yelp path with a search query will return a list of dicts containing information regarding the first ten restaurant results from the Yelp Fusion API.
+- **/events**: a call to the events path with a formatted search query will return a list of dicts containing information regarding the first ten event results from the Eventbrite API.
 
 ## Change Log
 07-15-2019 - 1.2.0
@@ -41,3 +42,4 @@ For this project I am recreating the back end of the [City Explorer](https://cod
 
 07-19-2019 1.4.0
 - /yelp path is functioning and returning formatted JSON data from the Yelp API
+- /events path is functioning and returning formatted JSON data from the Eventbrite API
