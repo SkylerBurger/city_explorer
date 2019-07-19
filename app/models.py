@@ -5,6 +5,9 @@ import requests
 
 
 class Location(db.Model):
+    """
+    Models basic location data for use in requests to location-based APIs.
+    """
     id = db.Column(db.Integer, primary_key=True)
     search_query = db.Column(db.String(256), unique=True)
     formatted_query = db.Column(db.String(256))
@@ -12,6 +15,9 @@ class Location(db.Model):
     longitude = db.Column(db.Float)
 
     def to_dict(self):
+        """
+        Returns the location model's attributes within a dictionary.
+        """
         return {
             'search_query': self.search_query,
             'formatted_query': self.formatted_query,
@@ -20,37 +26,26 @@ class Location(db.Model):
         }
 
     @staticmethod
-    def generate_api_url(query):
+    def create_entry(query):
         """
-        Takes in a request path.
-        Formats a URL to request location data from Google's Geocode API.
-        Calls a static method of Location to request location data from the API.
-        Returns the model returned from get_location_data().
+        Takes in a search query.
+        Retrieves Google Geocode API location data.
+        Returns a Location instance.
         """
+        # Generate API URL
         GEOCODE_API_KEY = os.getenv('GEOCODE_API_KEY')
-        url = 'https://maps.googleapis.com/maps/api/geocode/'
-        url += f'json?address={query}&key={GEOCODE_API_KEY}'
-        return Location.get_location_data(query, url)
+        url = f'https://maps.googleapis.com/maps/api/geocode/json?address={query}&key={GEOCODE_API_KEY}'
 
-    @staticmethod
-    def get_location_data(query, url):
-        """
-        Takes in the original search query and the formatted API URL.
-        Requests data from the Google Geocode API.
-        Parses information needed to create a Location entry in the database.
-        Makes a call to the Location class and returns a Location entry.
-        """
+        # Request Geocode API data
+        print('*********", url')
         api_data = requests.get(url).json()
         formatted_query = api_data['results'][0]['formatted_address']
         latitude = api_data['results'][0]['geometry']['location']['lat']
         longitude = api_data['results'][0]['geometry']['location']['lng']
-        return Location(formatted_query=formatted_query, latitude=latitude, longitude=longitude, search_query=query)
 
-
-
-
-
-
+        # Create a Location instance
+        return Location(formatted_query=formatted_query, latitude=latitude,
+                        longitude=longitude, search_query=query)
 
 
 # https://www.eventbriteapi.com/v3/events/search?token=${process.env.EVENTBRITE_API_KEY}&location.address=${request.query.data.formatted_query}
