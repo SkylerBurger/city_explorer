@@ -1,4 +1,3 @@
-from app.weather import WeatherNormalizer
 from config import Config
 
 from flask import Flask, request, jsonify
@@ -27,10 +26,11 @@ migrate = Migrate(app, db)
 def location_route():
     query = request.args.get('data')
     # Check database, returns None if there is no row
-    db_check = Location.query.filter_by(search_query=query).first()
+    # cached_location is a Location object, not just the data
+    cached_location = Location.query.filter_by(search_query=query).first()
 
-    if db_check:
-        return jsonify(db_check)
+    if cached_location:
+        return jsonify(cached_location.to_dict())
     else:
         location_entry = Location.create_entry(query)
         db.session.add(location_entry)
@@ -42,8 +42,8 @@ def location_route():
 def weather_route():
     latitude = request.args.get('data[latitude]')
     longitude = request.args.get('data[longitude]')
-    result = WeatherNormalizer(latitude, longitude)
-    return jsonify(result.forecast)
+    result = Weather.create_entry(latitude, longitude)
+    return jsonify(result.dailies)
 
 
 @app.route('/events')
@@ -51,4 +51,5 @@ def events_route():
     formatted_query = request.args.get('data[formatted_query]')
 
 
-from app.models import Location
+from app.models.location import Location
+from app.models.weather import Weather
