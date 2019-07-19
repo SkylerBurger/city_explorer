@@ -67,7 +67,12 @@ def movies_route():
     return jsonify(result.movies)
 
 
-# @app.rout('/trails')
+@app.route('/trails')
+def trails_route():
+    latitude = request.args.get('data[latitude]')
+    longitude = request.args.get('data[longitude]')
+    result = Trails.create_entry(latitude, longitude)
+    return jsonify(result.trails)
 
 
 from app.models.location import Location
@@ -75,3 +80,4 @@ from app.models.weather import Weather
 from app.models.yelp import Yelp
 from app.models.events import Events
 from app.models.movies import Movies
+from app.models.trails import Trails

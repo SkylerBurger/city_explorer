@@ -29,6 +29,7 @@ For this project I am recreating the back end of the [City Explorer](https://cod
 - **/yelp**: a call to the yelp path with a search query will return a list of dicts containing information regarding the first ten restaurant results from the Yelp Fusion API.
 - **/events**: a call to the events path with a formatted search query will return a list of dicts containing information regarding the first ten event results from the Eventbrite API.
 - **/movies**: a call to the movies path with a search query will return a list of dicts containing information regarding the first 5 movie results from the Movie DB API.
+- **trails**: a call to the trails path with a latitude and longitude will return a list of dicts containing information regarding local trails results from the Hiking Project API.
 
 ## Change Log
 07-15-2019 - 1.2.0
@@ -45,3 +46,4 @@ For this project I am recreating the back end of the [City Explorer](https://cod
 - /yelp path is functioning and returning formatted JSON data from the Yelp API
 - /events path is functioning and returning formatted JSON data from the Eventbrite API
 - /movies path is functioning and returning formatted JSON data from the MovieDB API
+- /trails path is functioning and returning formatted JSON data from the Hiking Project API

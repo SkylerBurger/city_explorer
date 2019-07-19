@@ -28,7 +28,7 @@ class Yelp(db.Model):
         for result in api_data.get('businesses'):
             name = result['name']
             image_url = result['image_url']
-            price = result['price']
+            price = result.get('price')
             rating = result['rating']
             url = result['url']
             restaurants.append({
