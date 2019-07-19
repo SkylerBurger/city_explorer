@@ -27,23 +27,16 @@ migrate = Migrate(app, db)
 @app.route('/location')
 def location_route():
     query = request.args.get('data')
+    # TODO: Try to rewrite this without a try-except block
+    # What does filter_by() return if there are no matches?
     try:
         db_check = Location.query.filter_by(search_query=query).first()
         db_check = db_check.to_dict()
     except AttributeError:
-
-        normalized_data = LocationNormalizer(query)
-        result = normalized_data.serialize()
-        print(result)
-
-        location_entry = Location(
-            search_query=result.get('search_query'),
-            formatted_query=result.get('formatted_query'),
-            latitude=result.get('latitude'),
-            longitude=result.get('longitude'))
+        location_entry = Location.generate_api_url(query)
         db.session.add(location_entry)
         db.session.commit()
-        return jsonify(result)
+        return jsonify(location_entry.to_dict())
 
     return jsonify(db_check)
 
@@ -59,6 +52,6 @@ def weather_route():
 @app.route('/events')
 def events_route():
     formatted_query = request.args.get('data[formatted_query]')
-    
+
 
 from app.models import Location
