@@ -40,10 +40,22 @@ class Location(db.Model):
 
         # Request Geocode API data
         api_data = requests.get(url).json()
+        print(api_data)
+        return Location.instantiate_location(api_data, query)
+
+    @staticmethod
+    def instantiate_location(api_data, query):
+        """
+        Takes in Google Geocoding API results and original search query.
+        Returns a Location object.
+        """
+        # Single out the information needed
         formatted_query = api_data['results'][0]['formatted_address']
         latitude = api_data['results'][0]['geometry']['location']['lat']
         longitude = api_data['results'][0]['geometry']['location']['lng']
 
         # Create a Location instance
-        return Location(formatted_query=formatted_query, latitude=latitude,
-                        longitude=longitude, search_query=query)
+        return Location(formatted_query=formatted_query,
+                        latitude=latitude,
+                        longitude=longitude,
+                        search_query=query)
