@@ -25,12 +25,18 @@ class Weather(db.Model):
         url += f'{WEATHER_API_KEY}/{lat},{long}'
 
         # Request Dark Sky API data
-        result = requests.get(url).json()
-        result = result['daily']['data']
+        api_data = requests.get(url).json()
+        api_data = api_data['daily']['data']
+
+        return Weather.instantiate_weather(api_data)
+
+    @staticmethod
+    def instantiate_weather(api_data):
         dailies = []
-        for day in result:
+        for day in api_data:
             date_string = strftime('%A %B %d, %Y', localtime(day['time']))
-            dailies.append({'time': date_string, 'forecast': day['summary']})
+            dailies.append({'time': date_string,
+                            'forecast': day['summary']})
 
         # Create a Weather instance
         return Weather(dailies=dailies)

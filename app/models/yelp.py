@@ -24,11 +24,16 @@ class Yelp(db.Model):
 
         # Request Yelp API data
         api_data = requests.get(url, headers=headers).json()
+        return Yelp.instantiate_yelp(api_data)
+
+
+    @staticmethod
+    def instantiate_yelp(api_data):
         restaurants = []
         for result in api_data.get('businesses'):
             name = result['name']
             image_url = result['image_url']
-            price = result.get('price')
+            price = result.get('price', 'NULL')
             rating = result['rating']
             url = result['url']
             restaurants.append({

@@ -57,6 +57,7 @@ def yelp_route():
 def events_route():
     query = request.args.get('data[formatted_query]')
     result = Events.create_entry(query)
+    print('******RESULT: ', result.events)
     return jsonify(result.events)
 
 

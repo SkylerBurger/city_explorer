@@ -27,6 +27,12 @@ class Events(db.Model):
 
         # Request Eventbrite API data
         api_data = requests.get(url).json()
+        print('******API URL: ', url)
+
+        return Events.instantiate_events(api_data)
+
+    @staticmethod
+    def instantiate_events(api_data):
         events = []
         for event in api_data['events'][:10]:
             link = event['url']

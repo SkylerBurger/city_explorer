@@ -40,7 +40,6 @@ class Location(db.Model):
 
         # Request Geocode API data
         api_data = requests.get(url).json()
-        print(api_data)
         return Location.instantiate_location(api_data, query)
 
     @staticmethod
