@@ -1,0 +1,950 @@
+{
+    "pagination": {
+        "object_count": 4110,
+        "page_number": 1,
+        "page_size": 50,
+        "page_count": 83,
+        "has_more_items": true
+    },
+    "events": [
+        {
+            "name": {
+                "text": "The Sesame Street Road Trip | Seattle WA",
+                "html": "The Sesame Street Road Trip | Seattle WA"
+            },
+            "description": {
+                "text": "Sesame Street is hosting a free, family festival in Seattle, July 27th in Seattle.",
+                "html": "Sesame Street is hosting a free, family festival in Seattle, July 27th in Seattle."
+            },
+            "id": "64256305339",
+            "url": "https://www.eventbrite.com/e/the-sesame-street-road-trip-seattle-wa-tickets-64256305339?aff=ebapi",
+            "vanity_url": "https://sesame_street_road_trip_seattle.eventbrite.com",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-27T09:30:00",
+                "utc": "2019-07-27T16:30:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-27T15:00:00",
+                "utc": "2019-07-27T22:00:00Z"
+            },
+            "organization_id": "11000817429",
+            "created": "2019-06-25T18:45:26Z",
+            "changed": "2019-07-20T19:54:30Z",
+            "published": "2019-06-26T13:35:09Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 600,
+            "hide_start_date": true,
+            "hide_end_date": true,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "coyote",
+            "is_free": true,
+            "version": "3.7.0",
+            "summary": "Sesame Street is hosting a free, family festival in Seattle, July 27th in Seattle.",
+            "logo_id": "62677424",
+            "organizer_id": "19958789343",
+            "venue_id": "34047208",
+            "category_id": "115",
+            "subcategory_id": "15005",
+            "format_id": "5",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/64256305339/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 14,
+                        "y": 0
+                    },
+                    "width": 1026,
+                    "height": 513
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F62677424%2F11000817429%2F1%2Foriginal.20190521-231145?auto=compress&s=91acbb336a9fae872d708a4064b07bf6",
+                    "width": 1870,
+                    "height": 520
+                },
+                "id": "62677424",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F62677424%2F11000817429%2F1%2Foriginal.20190521-231145?h=200&w=450&auto=compress&rect=14%2C0%2C1026%2C513&s=cc386226b723426a61234029328237a6",
+                "aspect_ratio": "2",
+                "edge_color": "#9ee6ff",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "Triggrcon 2019",
+                "html": "Triggrcon 2019"
+            },
+            "description": {
+                "text": "Triggrcon is a 3 day event in Bellevue, Washington. It will include a range day and industry hours` open to media and industry attendees and the final 2 days for enthusiasts. Triggrcon will showcase the newest, most innovative companies and products in the tactical firearms industry. The conference will be capped in exhibitors and attendees to maintain an intimate and exclusive environment.\r\nTriggrcon builds on existing relationships while fostering new partnerships. With several leading companies coordinating major product launches for the show for 2019, the buzz created will be epic. Media and industry attendees will experience a coordinated effort of manufacturers not seen at other shows while firearms enthusiasts will have a gateway into a show that normally is only offered to industry professionals.\r\n\u00a0\r\nFAQs\r\n\u00a0\r\nAre there ID or minimum age requirements to enter Triggrcon?\r\nTriggrcon is an all ages show. There are no ID requirements though everyone must have a ticket to enter.\r\n\u00a0\r\nWhat are my parking options at Triggrcon?\r\nThere is limited parking under the convention center though there are plenty parking options within 2 blocks from the venue. Parking fees will vary depending on the parking lot.\r\n\u00a0\r\nCan I bring my pet to the Triggrcon?\r\nNO animals except for properly identified on-duty ADA recognized service animals.\r\n\u00a0\r\nAre personal firearms or ammunition allowed?\r\nNO personal firearms or ammunition allowed (this exlcudes commissioned law enforcement). Only firearms on display by exhibitors whose firing pins have been removed (and have been inspected by Triggrcon Safety Advisors) will be permitted on the show floor. If you forget and bring your firearm, we will have a locker provider to store on premisis.\r\n\u00a0\r\nHow can I contact the organizer with any questions?\r\nPlease send all questions to info@triggrcon.com.\r\n\u00a0\r\nDo I have to bring my printed ticket to the event?\r\nNo, you may either print your ticket or have it on your phone.\r\n\u00a0\r\nWill badges be required?\r\nOnly industry, media, exhibitors will require you to wear your badge during the show. Standard public/enthusiast attendees do not require to wear a badge during the show.\r\n\u00a0\r\nWhere are the official Triggrcon hotels and how do I book with the block?\r\nThe official Triggrcon hotels are the Marriott Bellevue, the Bellevue Red Lion & the Belleve AC Hotel. Please refer to\u00a0https://experient3.com/lodging/triggrcon/ for booking your housing.",
+                "html": "<P>Triggrcon is a 3 day event in Bellevue, Washington. It will include a range day and industry hours` open to media and industry attendees and the final 2 days for enthusiasts. Triggrcon will showcase the newest, most innovative companies and products in the tactical firearms industry. The conference will be capped in exhibitors and attendees to maintain an intimate and exclusive environment.<\/P>\r\n<P>Triggrcon builds on existing relationships while fostering new partnerships. With several leading companies coordinating major product launches for the show for 2019, the buzz created will be epic. Media and industry attendees will experience a coordinated effort of manufacturers not seen at other shows while firearms enthusiasts will have a gateway into a show that normally is only offered to industry professionals.<\/P>\r\n<P>\u00a0<\/P>\r\n<P><STRONG>FAQs<\/STRONG><\/P>\r\n<P>\u00a0<\/P>\r\n<P><STRONG>Are there ID or minimum age requirements to enter Triggrcon?<\/STRONG><\/P>\r\n<P>Triggrcon is an all ages show. There are no ID requirements though everyone must have a ticket to enter.<\/P>\r\n<P>\u00a0<\/P>\r\n<P><STRONG>What are my parking options at Triggrcon?<\/STRONG><\/P>\r\n<P>There is limited parking under the convention center though there are plenty parking options within 2 blocks from the venue. Parking fees will vary depending on the parking lot.<\/P>\r\n<P>\u00a0<\/P>\r\n<P CLASS=\"MsoNormal\"><STRONG>Can I bring my pet to the Triggrcon?<\/STRONG><\/P>\r\n<P CLASS=\"MsoNormal\">NO animals except for properly identified on-duty ADA recognized service animals.<\/P>\r\n<P>\u00a0<\/P>\r\n<P CLASS=\"MsoNormal\"><STRONG>Are personal firearms or ammunition allowed?<\/STRONG><\/P>\r\n<P>NO personal firearms or ammunition allowed (this exlcudes commissioned law enforcement). Only firearms on display by exhibitors whose firing pins have been removed (and have been inspected by Triggrcon Safety Advisors) will be permitted on the show floor. If you forget and bring your firearm, we will have a locker provider to store on premisis.<BR><\/P>\r\n<P>\u00a0<\/P>\r\n<P><STRONG>How can I contact the organizer with any questions?<\/STRONG><\/P>\r\n<P>Please send all questions to info@triggrcon.com.<\/P>\r\n<P>\u00a0<\/P>\r\n<P><STRONG>Do I have to bring my printed ticket to the event?<\/STRONG><\/P>\r\n<P>No, you may either print your ticket or have it on your phone.<\/P>\r\n<P>\u00a0<\/P>\r\n<P CLASS=\"MsoNormal\"><SPAN><STRONG>Will badges be required?<\/STRONG><\/SPAN><\/P>\r\n<P><SPAN>Only industry, media, exhibitors will require you to wear your badge during the show. Standard public/enthusiast attendees do not require to wear a badge during the show.<\/SPAN><BR><\/P>\r\n<P>\u00a0<\/P>\r\n<P CLASS=\"MsoNormal\"><STRONG>Where are the official Triggrcon hotels and how do I book with the block?<\/STRONG><\/P>\r\n<P CLASS=\"MsoNormal\"><SPAN>The official Triggrcon hotels are the Marriott Bellevue, the Bellevue Red Lion &amp; the Belleve AC Hotel. Please refer to\u00a0https://experient3.com/lodging/triggrcon/ for booking your housing.<\/SPAN><\/P>"
+            },
+            "id": "53358965101",
+            "url": "https://www.eventbrite.com/e/triggrcon-2019-tickets-53358965101?aff=ebapi",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-26T13:00:00",
+                "utc": "2019-07-26T20:00:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-27T18:00:00",
+                "utc": "2019-07-28T01:00:00Z"
+            },
+            "organization_id": "221235417745",
+            "created": "2018-12-05T19:30:44Z",
+            "changed": "2019-07-21T01:18:25Z",
+            "published": "2018-12-05T19:30:47Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 480,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "create_2.0",
+            "is_free": true,
+            "version": "3.0.0",
+            "summary": "Triggrcon is a 3 day event in Bellevue, Washington. It will include a range day and industry hours` open to media and industry attendees and",
+            "logo_id": "53610748",
+            "organizer_id": "18301510030",
+            "venue_id": "28225227",
+            "category_id": "119",
+            "subcategory_id": "19999",
+            "format_id": "4",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/53358965101/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 97
+                    },
+                    "width": 1488,
+                    "height": 744
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F53610748%2F221235417745%2F1%2Foriginal.jpg?auto=compress&s=2967acd2e5d0fefc210a285774ac377f",
+                    "width": 1488,
+                    "height": 872
+                },
+                "id": "53610748",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F53610748%2F221235417745%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C97%2C1488%2C744&s=377257fba4696619b6f06c380c6ce2a2",
+                "aspect_ratio": "2",
+                "edge_color": null,
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "Seattle Job Fair & Career Fair * Sheraton Bellevue Hotel - August 6, 2019",
+                "html": "Seattle Job Fair &amp; Career Fair * Sheraton Bellevue Hotel - August 6, 2019"
+            },
+            "description": {
+                "text": "Seattle Job and Career Fair -\u00a0 Sales & Professional Hiring Event\u00a0\nTuesday - August 6th, 2019 *11:30 AM to 1:30 PM\nSheraton Bellevue Hotel\n\nMeet, sit down and interview with Nationally Known employers at The Seattle Career Fair - Sales & Professional Job Fair.\u00a0\u00a0 \n\u00a0\nIndustries represented at The Seattle Career Fairs and Hiring Events:\u00a0\u00a0\u00a0Sales, Inside Sales, Outside Sales, Retail, Financial Sales, B2B Sales, Customer Service,\u00a0 Industrial, Military Veterans, Consulting, Customer Service, Enlisted Military Veterans, Security Sales, Event Sales, Solar, Entry-level Management, and more...\u00a0\n\u00a0\nBenefits packages vary at our Seattle Career Fairs, most include a combination of the following: \nCorporate Benefits Packages: Salaried PositionsBase Salary + Positions BonusesCommissionCar or Car AllowanceCell/LaptopFull Medical/Dental/VisionLife InsurancePaid HolidaysExpense AccountComplete Corporate TrainingCollege Tuition ReimbursementManagement TrainingRapid Career Advancement\n\u00a0\nProfessional Dress is recommended at this hiring event (suit & tie or business suit). Bring plenty of resumes.\n\n** EMPLOYERS:\u00a0Please Contact us for\u00a0Best Rates / DCG Career Fairs\n__________________________________________________________________________\n20th Annual Seattle Career Fair - Sales & Professional Job FairTuesday - August 6, 201911:30 AM to 1:30 PMSheraton Bellevue Hotel\u00a0100 112th Ave. NE,\u00a0Bellevue, WA 98004\u00a0\u00a0\n*Note: Map on Eventbrite\u00a0page may not be correct.\n\n*Come with your Eventbrite ticket for 1st admission*\nFree Attendance for Candidates - Open to all candidates!\u00a0 \nBe prepared to interview with hiring managers and recruiters at the Seattle Career Fair and Hiring Event,\u00a0Professional Dress (suit & tie or business suit) required. Bring plenty of resumes.\n\u00a0\nEMPLOYERS:\nHundreds of Seattle's Best and Most Qualified Candidates Attend The Seattle Career Fair and Job Fair\u00a0 Every Year. Please contact us for Special Corporate\u00a0and Local Business Rates to participate.\nwww.diversitycareergroup.com/am-venues/seattle-career-fairs/\nor\nRequest Employer Pricing Information\n\nAccount Executive, Sales Representative, Account Manager, B2B, retail sales, sales, financial services, customer service, Business Development Manager, Sales Manager, Financial Services, Insurance, Telecommunications, office equipment, Telecom, Information Technology, Software, Security Services, Advertising, Payroll, Sales Management, Sales Trainee, Management Trainee, At home sales, cold calling, telemarketer, telemarketing, financial advisor, insurance sales, outside sales, outside sales representative, sales executive, salesman, salesperson, sales women\n",
+                "html": "<P><SPAN><STRONG>Seattle Job and Career Fair -\u00a0 Sales &amp; Professional Hiring Event<\/STRONG>\u00a0<\/SPAN><BR><\/P>\n<P><SPAN><STRONG>Tuesday - August 6th, 2019 *<SPAN>11:30 AM to 1:30 PM<\/SPAN><\/STRONG><\/SPAN><BR><\/P>\n<P><SPAN><STRONG><SPAN>Sheraton Bellevue Hotel<\/SPAN><\/STRONG><\/SPAN><\/P>\n<P><BR><\/P>\n<P><SPAN>Meet, sit down and interview with Nationally Known employers at The Seattle Career Fair - <SPAN>Sales &amp; Professional <\/SPAN>Job Fair.\u00a0\u00a0 <\/SPAN><BR><\/P>\n<P>\u00a0<\/P>\n<P><SPAN><SPAN><STRONG>Industries represented at The Seattle Career Fairs and Hiring Events:\u00a0\u00a0\u00a0<\/STRONG>Sales, Inside Sales, Outside Sales, Retail, Financial Sales, B2B Sales, Customer Service,\u00a0 Industrial, Military Veterans, Consulting, Customer Service, Enlisted Military Veterans, Security Sales, Event Sales, Solar, Entry-level Management, and more...<\/SPAN>\u00a0<\/SPAN><BR><\/P>\n<P>\u00a0<\/P>\n<P><STRONG><SPAN><SPAN><STRONG>Benefits packages vary at our Seattle Career Fairs, most include a combination of the following:<\/STRONG><\/SPAN><\/SPAN> <BR><\/STRONG><\/P>\n<P><SPAN><SPAN><STRONG>Corporate Benefits Packages:<\/STRONG> <\/SPAN><\/SPAN><BR><SPAN>Salaried Positions<\/SPAN><BR><SPAN>Base Salary + Positions <\/SPAN><BR><SPAN>Bonuses<\/SPAN><BR><SPAN>Commission<\/SPAN><BR><SPAN>Car or Car Allowance<\/SPAN><BR><SPAN>Cell/Laptop<\/SPAN><BR><SPAN>Full Medical/Dental/Vision<\/SPAN><BR><SPAN>Life Insurance<\/SPAN><BR><SPAN>Paid Holidays<\/SPAN><BR><SPAN>Expense Account<\/SPAN><BR><SPAN>Complete Corporate Training<\/SPAN><BR><SPAN>College Tuition Reimbursement<\/SPAN><BR><SPAN>Management Training<\/SPAN><BR><SPAN>Rapid Career Advancement<\/SPAN><\/P>\n<P>\u00a0<\/P>\n<P><SPAN>Professional Dress is recommended at this hiring event (suit &amp; tie or business suit). Bring plenty of resumes.<\/SPAN><BR><\/P>\n<P><BR><\/P>\n<P><SPAN><STRONG>** EMPLOYERS:<\/STRONG><SPAN>\u00a0Please Contact us for\u00a0<\/SPAN><STRONG><A HREF=\"https://www.diversitycareergroup.com/employer-career-fair-information/\" TARGET=\"_blank\" REL=\"nofollow noopener noreferrer\">Best Rates / DCG Career Fairs<\/A><\/STRONG><\/SPAN><\/P>\n<P><STRONG>__________________________________________________________________________<BR><\/STRONG><\/P>\n<P><STRONG>20th Annual Seattle Career Fair - Sales &amp; Professional Job Fair<\/STRONG><BR><STRONG><SPAN>Tuesday - August 6, 2019<\/SPAN><\/STRONG><BR><STRONG>11:30 AM to 1:30 PM<\/STRONG><BR><STRONG>Sheraton Bellevue Hotel\u00a0<\/STRONG><BR><SPAN>100 112th Ave. NE,\u00a0<\/SPAN><BR><SPAN><SPAN>Bellevue, WA 98004<\/SPAN>\u00a0<\/SPAN>\u00a0<\/P>\n<P><STRONG>*Note: Map on Eventbrite\u00a0page may not be correct.<\/STRONG><\/P>\n<P><BR><\/P>\n<P><SPAN><STRONG><STRONG><SPAN>*Come with your Eventbrite ticket for 1st admission*<\/SPAN><\/STRONG><\/STRONG><\/SPAN><\/P>\n<P><STRONG><SPAN>Free Attendance for Candidates - Open to all candidates!\u00a0<\/SPAN><\/STRONG><SPAN> <BR><\/SPAN><\/P>\n<P><SPAN><SPAN><SPAN ITEMPROP=\"description\"><SPAN>Be p<\/SPAN><SPAN>repared to interview with hiring managers and recruiters at the Seattle Career Fair and Hiring Event,\u00a0<\/SPAN><\/SPAN>Professional Dress (suit &amp; tie or business suit) required. Bring plenty of resumes.<\/SPAN><\/SPAN><\/P>\n<P>\u00a0<\/P>\n<P><STRONG>EMPLOYERS:<\/STRONG><\/P>\n<P><STRONG>Hundreds of Seattle's Best and Most Qualified Candidates Attend The Seattle Career Fair and Job Fair\u00a0 Every Year. Please contact us for Special Corporate\u00a0and Local Business Rates to participate.<\/STRONG><\/P>\n<P><STRONG><A HREF=\"https://www.diversitycareergroup.com/\" TARGET=\"_blank\" TITLE=\"www.DiversityCareerGroup.com\" REL=\"nofollow noopener noreferrer\">www.diversitycareergroup.com/am-venues/seattle-career-fairs/<\/A><\/STRONG><\/P>\n<P>or<\/P>\n<P><STRONG><A HREF=\"https://www.diversitycareergroup.com/employers/\" TARGET=\"_blank\" REL=\"nofollow noopener noreferrer\">Request Employer Pricing Information<\/A><\/STRONG><\/P>\n<P><BR><\/P>\n<P>Account Executive, Sales Representative, Account Manager, B2B, retail sales, sales, financial services, customer service, Business Development Manager, Sales Manager, Financial Services, Insurance, Telecommunications, office equipment, Telecom, Information Technology, Software, Security Services, Advertising, Payroll, Sales Management, Sales Trainee, Management Trainee, At home sales, cold calling, telemarketer, telemarketing, financial advisor, insurance sales, outside sales, outside sales representative, sales executive, salesman, salesperson, sales women<\/P>\n<P><BR><\/P>"
+            },
+            "id": "21459190015",
+            "url": "https://www.eventbrite.com/e/seattle-job-fair-career-fair-sheraton-bellevue-hotel-august-6-2019-tickets-21459190015?aff=ebapi",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-06T11:30:00",
+                "utc": "2019-08-06T18:30:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-06T13:30:00",
+                "utc": "2019-08-06T20:30:00Z"
+            },
+            "organization_id": "72054276821",
+            "created": "2016-02-09T19:23:40Z",
+            "changed": "2019-07-17T21:46:39Z",
+            "published": "2016-02-09T19:28:42Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 600,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "create_2.0",
+            "is_free": true,
+            "version": "3.0.0",
+            "summary": "Seattle Job and Career Fair - Sales & Professional Hiring Event - Tuesday - August 6th, 2019 *11:30 AM to 1:30 PM\nSheraton Bellevue Hotel\n\nM",
+            "logo_id": "18595222",
+            "organizer_id": "4629163895",
+            "venue_id": "33649634",
+            "category_id": "101",
+            "subcategory_id": "1010",
+            "format_id": "5",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/21459190015/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 23,
+                        "y": 0
+                    },
+                    "width": 1302,
+                    "height": 651
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F18595222%2F72054276821%2F1%2Foriginal.jpg?auto=compress&s=8c8baf5f039d4ae362801beb45814d08",
+                    "width": 800,
+                    "height": 485
+                },
+                "id": "18595222",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F18595222%2F72054276821%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=23%2C0%2C1302%2C651&s=5bf841aff7dd6ee57974492b124ed02f",
+                "aspect_ratio": "2",
+                "edge_color": "#988d9a",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "CAPITOL HILL BLOCK PARTY 2019",
+                "html": "CAPITOL HILL BLOCK PARTY 2019"
+            },
+            "description": {
+                "text": "CAPITOL HILL BLOCK PARTY 2019",
+                "html": "CAPITOL HILL BLOCK PARTY 2019"
+            },
+            "id": "52495809379",
+            "url": "https://www.eventbrite.com/e/capitol-hill-block-party-2019-tickets-52495809379?aff=ebapi",
+            "vanity_url": "https://chbp2019.eventbrite.com",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-19T15:00:00",
+                "utc": "2019-07-19T22:00:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-21T23:30:00",
+                "utc": "2019-07-22T06:30:00Z"
+            },
+            "organization_id": "272672892150",
+            "created": "2018-11-12T18:27:52Z",
+            "changed": "2019-07-21T19:57:41Z",
+            "published": "2018-11-19T15:59:08Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "started",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 480,
+            "hide_start_date": true,
+            "hide_end_date": true,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "coyote",
+            "is_free": false,
+            "version": "3.7.0",
+            "summary": "CAPITOL HILL BLOCK PARTY 2019",
+            "logo_id": "56438503",
+            "organizer_id": "17869057908",
+            "venue_id": "28015380",
+            "category_id": "103",
+            "subcategory_id": null,
+            "format_id": "5",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/52495809379/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "width": 2160,
+                    "height": 1080
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F56438503%2F259362615886%2F1%2Foriginal.20190207-185047?auto=compress&s=b699e07cf78156fc592cb1626dcb7e9a",
+                    "width": 2160,
+                    "height": 1080
+                },
+                "id": "56438503",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F56438503%2F259362615886%2F1%2Foriginal.20190207-185047?h=200&w=450&auto=compress&rect=0%2C0%2C2160%2C1080&s=8a59c199d9af477acb9b7f381a326b0a",
+                "aspect_ratio": "2",
+                "edge_color": "#231d34",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "Kirkland, WA | 1000 Lights Water Lantern Festival 2019",
+                "html": "Kirkland, WA | 1000 Lights Water Lantern Festival 2019"
+            },
+            "description": {
+                "text": "Come experience the beauty as thousands of lanterns illuminate the water at the 1000 Lights Water Lantern Festival in Kirkland, WA.",
+                "html": "Come experience the beauty as thousands of lanterns illuminate the water at the 1000 Lights Water Lantern Festival in Kirkland, WA."
+            },
+            "id": "59781489043",
+            "url": "https://www.eventbrite.com/e/kirkland-wa-1000-lights-water-lantern-festival-2019-tickets-59781489043?aff=ebapi",
+            "vanity_url": "https://kirkland1000lights.eventbrite.com",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-10T18:00:00",
+                "utc": "2019-08-11T01:00:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-10T22:30:00",
+                "utc": "2019-08-11T05:30:00Z"
+            },
+            "organization_id": "278966039964",
+            "created": "2019-04-02T17:32:17Z",
+            "changed": "2019-07-21T18:24:50Z",
+            "published": "2019-04-02T21:01:03Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 480,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "coyote",
+            "is_free": false,
+            "version": "3.7.0",
+            "summary": "Come experience the beauty as thousands of lanterns illuminate the water at the 1000 Lights Water Lantern Festival in Kirkland, WA.",
+            "logo_id": "59562769",
+            "organizer_id": "18045263775",
+            "venue_id": "31465001",
+            "category_id": "113",
+            "subcategory_id": null,
+            "format_id": "5",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/59781489043/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "width": 1920,
+                    "height": 960
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F59562769%2F278966039964%2F1%2Foriginal.20190402-173247?auto=compress&s=0ebbf0dc75240895acb12654765675a3",
+                    "width": 1920,
+                    "height": 1080
+                },
+                "id": "59562769",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F59562769%2F278966039964%2F1%2Foriginal.20190402-173247?h=200&w=450&auto=compress&rect=0%2C0%2C1920%2C960&s=3780870f5f129637e3b640a2250c6391",
+                "aspect_ratio": "2",
+                "edge_color": null,
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "Future of Nursing 2030 Seattle Town Hall",
+                "html": "Future of Nursing 2030 Seattle Town Hall"
+            },
+            "description": {
+                "text": "The Committee on the Future of Nursing 2030 would like to hear your insights on ways to advance the nursing profession to help our nation create a culture of health, reduce health disparities, and improve the health and well-being of the U.S. population in the 21st century.\nThis meeting is the third of three regional town hall meetings. The theme of the Seattle meeting is High Tech to High Touch.\nTo learn more about the ongoing study, visit nam.edu/FutureofNursing2030/.\nPlease attend and participate! Can't attend? Join us online. Select comments will be read aloud.\nRegister by 12pm ET on August 1st to attend in person. Register by August 5th to watch the webcast. You will receive an email with instructions on how to watch.\nWe welcome you to two additional town hall meetings:\nChicago: June 7, 2019Theme: Education, Research and Practice\nPhiladelphia:\u00a0July 24, 2019 Theme:\u00a0Payment and Care for Complex Health and Social Needs\nQuestions? Email: Futureofnursing2030@nas.edu.",
+                "html": "<P>The Committee on the Future of Nursing 2030 would like to hear your insights on ways to advance the nursing profession to help our nation create a culture of health, reduce health disparities, and improve the health and well-being of the U.S. population in the 21st century.<\/P>\n<P>This meeting is the third of three regional town hall meetings. The theme of the Seattle meeting is <STRONG>High Tech to High Touch.<\/STRONG><\/P>\n<P>To learn more about the ongoing study, visit <A HREF=\"https://nam.edu/publications/the-future-of-nursing-2020-2030/\" TARGET=\"_blank\" REL=\"nofollow noopener noreferrer\">nam.edu/FutureofNursing2030/.<\/A><\/P>\n<P>Please attend and participate! Can't attend? Join us online. Select comments will be read aloud.<\/P>\n<P><STRONG>Register by 12pm ET on August 1st to attend in person. Register by August 5th to watch the webcast. You will receive an email with instructions on how to watch.<\/STRONG><\/P>\n<P>We welcome you to two additional town hall meetings:<\/P>\n<P><SPAN><STRONG><A HREF=\"https://www.eventbrite.com/e/future-of-nursing-2030-chicago-town-hall-tickets-60136700490\" TARGET=\"_blank\">Chicago<\/A>:<\/STRONG> <\/SPAN>June 7, 2019<BR>Theme: Education, Research and Practice<\/P>\n<P><STRONG><A HREF=\"https://www.eventbrite.com/e/future-of-nursing-2030-philadelphia-town-hall-tickets-60137844913\" TARGET=\"_blank\">Philadelphia<\/A>:<\/STRONG><STRONG>\u00a0<\/STRONG>July 24, 2019 <BR>Theme:\u00a0<SPAN>Payment and Care for Complex Health and Social Needs<\/SPAN><\/P>\n<P>Questions? Email: <A HREF=\"mailto:Futureofnursing2030@nas.edu\" TARGET=\"_blank\" REL=\"nofollow noopener noreferrer\">Futureofnursing2030@nas.edu<\/A>.<\/P>"
+            },
+            "id": "60138681415",
+            "url": "https://www.eventbrite.com/e/future-of-nursing-2030-seattle-town-hall-tickets-60138681415?aff=ebapi",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-07T08:30:00",
+                "utc": "2019-08-07T15:30:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-07T12:30:00",
+                "utc": "2019-08-07T19:30:00Z"
+            },
+            "organization_id": "147623357239",
+            "created": "2019-04-09T16:38:19Z",
+            "changed": "2019-07-16T19:12:01Z",
+            "published": "2019-04-09T17:31:40Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 600,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "create_2.0",
+            "is_free": true,
+            "version": "3.0.0",
+            "summary": "The Committee on the Future of Nursing 2030 would like to hear your insights on ways to advance the nursing profession to help our nation cr",
+            "logo_id": "60151867",
+            "organizer_id": "11077172197",
+            "venue_id": "34263105",
+            "category_id": "107",
+            "subcategory_id": null,
+            "format_id": "2",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/60138681415/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "width": 1202,
+                    "height": 601
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F60151867%2F147623357239%2F1%2Foriginal.20190410-171354?auto=compress&s=de7cf071b8383198f6710476c4677b35",
+                    "width": 2551,
+                    "height": 601
+                },
+                "id": "60151867",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F60151867%2F147623357239%2F1%2Foriginal.20190410-171354?h=200&w=450&auto=compress&rect=0%2C0%2C1202%2C601&s=601a422ee94bd85f8661ebbbfc89d37f",
+                "aspect_ratio": "2",
+                "edge_color": "#249ed3",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "TEDxSeattle 2019 ",
+                "html": "TEDxSeattle 2019 "
+            },
+            "description": {
+                "text": "Super Early Bird Tickets are Sold Out! A Limited number of Discounted Early Bird tickets are still available!\nJoin us for our 10th anniversary event, TEDxSeattle 2019. This year\u2019s theme is SHIFT and our inspiring speakers will present talks from the fields of medical research, art, technology, and philanthropy encompassing multiple aspects of change from the power of a subtle shift in attitude to major changes in ecosystems.\n\nThis year we are introducing our ALL-ACCESS level that includes lunch and access to the after-party at the exclusive Columbia Tower Club, a total value of $85 available for only $40 over the General Admission early bird price.\nFor the best experience of the day register for our Patron level and in addition to lunch and the after party, enjoy early access to the auditorium with your choice of front row or box seats and all day use of our Patron lounge with premium food and drinks. Your ticket will also help us provide below-cost tickets to our student attendees.\n\nALL-ACCESS (Best Value!):\n\n\nIncludes a General Admission Ticket PLUS:\u00a0\n\n\nComplimentary lunch with dedicated seating ($25 value)\n\n\nExclusive TEDxSeattle After Party access hosted at Columbia Tower Club ($60 value)\n\n\n2 Complimentary Drinks at After Party\n\n\n(Limited Availability)\n\n\nGeneral Admission:\n\n\nFull day event access\u00a0\n\n\nEnjoy over 10 inspiring Talks\u00a0\n\n\nLive Musical Performances\u00a0\n\n\nOpen Seating in the Auditorium\n\n\nComplimentary drinks and snacks\n\n\nPatron:\n\n\nIncludes all GA and All-Access benefits\u00a0\n\n\nPLUS:\u00a0\n\n\nDedicated Entrance and Registration line\u00a0\n\n\nEarly Access to the Auditorium\u00a0\n\n\nYour choice of Front Row or Box Seats\u00a0\n\n\nAccess to Exclusive Patron Lounge\u00a0\n\n\nComplimentary Lunch & Premium Snacks\u00a0\n\n\nPatron Tickets help subsidize student tickets\n\n\nStudent\n\n\nUpper-balcony seats are held for Student Tickets.\u00a0\n\n\nValid Student ID must be presented upon entry and Student Ticket must be purchased using a .edu email or similar university email address.\n\n\n\nFor Corporate Ticket Packages please email partners@tedxseattle.com\n",
+                "html": "<P><STRONG>Super Early Bird Tickets are Sold Out! A Limited number of Discounted Early Bird tickets are still available!<\/STRONG><\/P>\n<P>Join us for our 10th anniversary event, TEDxSeattle 2019. This year\u2019s theme is SHIFT and our inspiring speakers will present talks from the fields of medical research, art, technology, and philanthropy encompassing multiple aspects of change from the power of a subtle shift in attitude to major changes in ecosystems.<\/P>\n<P><BR><\/P>\n<P>This year we are introducing our ALL-ACCESS level that includes lunch and access to the after-party at the exclusive Columbia Tower Club, a total value of $85 available for only $40 over the General Admission early bird price.<\/P>\n<P>For the best experience of the day register for our Patron level and in addition to lunch and the after party, enjoy early access to the auditorium with your choice of front row or box seats and all day use of our Patron lounge with premium food and drinks. Your ticket will also help us provide below-cost tickets to our student attendees.<\/P>\n<P><BR><\/P>\n<H2><STRONG>ALL-ACCESS (Best Value!):<\/STRONG><\/H2>\n<UL>\n<LI>\n<P><SPAN>Includes a General Admission Ticket PLUS:\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Complimentary lunch with dedicated seating ($25 value)<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Exclusive TEDxSeattle After Party access hosted at Columbia Tower Club ($60 value)<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>2 Complimentary Drinks at After Party<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>(Limited Availability)<\/SPAN><\/P>\n<\/LI>\n<\/UL>\n<H2><STRONG>General Admission:<\/STRONG><\/H2>\n<UL>\n<LI>\n<P><SPAN>Full day event access\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Enjoy over 10 inspiring Talks\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Live Musical Performances\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Open Seating in the Auditorium<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Complimentary drinks and snacks<\/SPAN><\/P>\n<\/LI>\n<\/UL>\n<H2><STRONG>Patron:<\/STRONG><\/H2>\n<UL>\n<LI>\n<P><SPAN>Includes all GA and All-Access benefits\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>PLUS:\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Dedicated Entrance and Registration line\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Early Access to the Auditorium\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Your choice of Front Row or Box Seats\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Access to Exclusive Patron Lounge\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Complimentary Lunch &amp; Premium Snacks\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Patron Tickets help subsidize student tickets<\/SPAN><\/P>\n<\/LI>\n<\/UL>\n<H2><STRONG>Student<\/STRONG><\/H2>\n<UL>\n<LI>\n<P><SPAN>Upper-balcony seats are held for Student Tickets.\u00a0<\/SPAN><\/P>\n<\/LI>\n<LI>\n<P><SPAN>Valid Student ID must be presented upon entry and Student Ticket must be purchased using a .edu email or similar university email address.<\/SPAN><\/P>\n<\/LI>\n<\/UL>\n<H2><SPAN><SPAN><BR><\/SPAN><\/SPAN><\/H2>\n<P><EM>For Corporate Ticket Packages please email partners@tedxseattle.com<\/EM><\/P>\n<P><SPAN><BR><\/SPAN><\/P>"
+            },
+            "id": "63923084667",
+            "url": "https://www.eventbrite.com/e/tedxseattle-2019-tickets-63923084667?aff=ebapi",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-11-23T08:00:00",
+                "utc": "2019-11-23T16:00:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-11-23T17:00:00",
+                "utc": "2019-11-24T01:00:00Z"
+            },
+            "organization_id": "2155491556",
+            "created": "2019-06-20T22:34:43Z",
+            "changed": "2019-07-21T19:32:21Z",
+            "published": "2019-06-20T22:34:47Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 1800,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "create_2.0",
+            "is_free": false,
+            "version": "3.0.0",
+            "summary": "Super Early Bird Tickets are Sold Out! A Limited number of Discounted Early Bird tickets are still available!\nJoin us for our 10th anniversa",
+            "logo_id": "64467694",
+            "organizer_id": "17084983540",
+            "venue_id": "33946416",
+            "category_id": "111",
+            "subcategory_id": "11999",
+            "format_id": "2",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/63923084667/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "width": 1200,
+                    "height": 600
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F64467694%2F2155491556%2F1%2Foriginal.20190626-054929?auto=compress&s=5bc216eea1f70d25567e58c1f9680d0c",
+                    "width": 1200,
+                    "height": 627
+                },
+                "id": "64467694",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F64467694%2F2155491556%2F1%2Foriginal.20190626-054929?h=200&w=450&auto=compress&rect=0%2C0%2C1200%2C600&s=9d37a8f4738430d5a77fb14e94a3f7a9",
+                "aspect_ratio": "2",
+                "edge_color": "#2d2226",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "Charles Smith's 20th Anniversary: Lukas Nelson & Promise of the Real",
+                "html": "Charles Smith&#39;s 20th Anniversary: Lukas Nelson &amp; Promise of the Real"
+            },
+            "description": {
+                "text": "\nCharles Smith's 20th Anniversary Presents...\nLUKAS NELSON & PROMISE OF THE REAL\nWhen: Tuesday, August 13\nDoors open at 7:00pmMusic starts at 8:00pmWhere: Charles Smith Wines Jet City(1136 South Albro Place, Seattle, WA)How much: $45/ticket\nAbout the Music:Balancing his work as the front man of Lukas Nelson & Promise of the Real \u2014 an emergent and vital force in American music \u2014 with his regular gig as Neil Young\u2019s band leader and lead guitarist \u2014 and of course, the never-ending road alongside his father in Willie Nelson & Family \u2014 in song after song, on stage after stage, Lukas has sharpened the edges of his singular sound, one that nods to his influences while also pushing forward into uncharted territory.\u00a0\n\n\nThis is the one you don\u2019t want to miss.\nWe know, we say that just about every time.\nBut this is our 20th anniversary, and for this epic milestone we are pulling out all the stops.\n\nWe'll be pouring an old classic and a\u00a0new surprise...\nFour of Seattle\u2019s favorite food trucks\nBeer from Georgetown Brewing\n\nWorld premiere of the new project produced to celebrate this milestone.\n\n\nThat\u2019s right! For our 20th vintage, we planned ahead. We produced something special to celebrate, and this party is the sneak preview of a release we can't wait to share with you. But the only way to know is to go.\u00a0\nYou'll kick yourself if you miss this. So don\u2019t.\n\n\n\u00a0\u200b\u00a0\n\n\n\n\nThis is a 21+ event.\n\n\n",
+                "html": "<DIV>\n<P CLASS=\"MsoNormal\"><STRONG>Charles Smith's 20th Anniversary Presents...<\/STRONG><\/P>\n<H2 CLASS=\"MsoNormal\"><STRONG><STRONG>LUKAS NELSON &amp; PROMISE OF THE REAL<\/STRONG><\/STRONG><\/H2>\n<P CLASS=\"MsoNormal\"><STRONG>When<\/STRONG>: Tuesday, August 13<\/P>\n<P><EM>Doors open at 7:00pm<\/EM><I><BR><EM>Music starts at 8:00pm<\/EM><\/I><BR><BR><STRONG>Where<\/STRONG>: Charles Smith Wines Jet City<BR><EM>(1136 South Albro Place, Seattle, WA)<\/EM><BR><BR><STRONG>How much<\/STRONG>: $45/ticket<\/P>\n<P><STRONG>About the Music:<\/STRONG><BR>Balancing his work as the front man of <A HREF=\"http://lukasnelson.com/music/\" TARGET=\"_blank\" TITLE=\"Lukas Nelson & Promise of the Real\" REL=\"nofollow noopener noreferrer\">Lukas Nelson &amp; Promise of the Real<\/A> \u2014 an emergent and vital force in American music \u2014 with his regular gig as Neil Young\u2019s band leader and lead guitarist \u2014 and of course, the never-ending road alongside his father in Willie Nelson &amp; Family \u2014 in song after song, on stage after stage, Lukas has sharpened the edges of his singular sound, one that nods to his influences while also pushing forward into uncharted territory.\u00a0<\/P>\n<\/DIV>\n<P><BR><\/P>\n<P><STRONG><SPAN>This is the one you don\u2019t want to miss.<\/SPAN><\/STRONG><\/P>\n<P><SPAN>We know, we say that just about every time.<\/SPAN><\/P>\n<P><SPAN>But this is our 20th anniversary, and for this epic milestone we are pulling out all the stops.<\/SPAN><\/P>\n<UL>\n<LI>We'll be pouring an old classic and a<SPAN CLASS=\"Apple-converted-space\">\u00a0<\/SPAN>new surprise...<\/LI>\n<LI>Four of Seattle\u2019s favorite food trucks<\/LI>\n<LI>Beer from Georgetown Brewing<EM><\/EM><\/LI>\n<LI>\n<DIV>World premiere of the new project produced to celebrate this milestone.<\/DIV>\n<\/LI>\n<\/UL>\n<P>That\u2019s right! For our 20th vintage, we planned ahead. We produced something special to celebrate, and this party is the sneak preview of a release we can't wait to share with you. But the only way to know is to go.<SPAN CLASS=\"Apple-converted-space\">\u00a0<\/SPAN><\/P>\n<P><STRONG>Y<\/STRONG><STRONG>ou'll kick yourself if you miss this. So don\u2019t.<\/STRONG><\/P>\n<DIV>\n<DIV>\n<P><SPAN>\u00a0<\/SPAN>\u200b\u00a0<\/P>\n<\/DIV>\n<\/DIV>\n<DIV>\n<DIV>\n<P><EM>This is a 21+ event.<\/EM><\/P>\n<P CLASS=\"MsoNormal\"><BR><\/P>\n<\/DIV>\n<\/DIV>"
+            },
+            "id": "62227645563",
+            "url": "https://www.eventbrite.com/e/charles-smiths-20th-anniversary-lukas-nelson-promise-of-the-real-tickets-62227645563?aff=ebapi",
+            "vanity_url": "https://charles20th.eventbrite.com",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-13T19:00:00",
+                "utc": "2019-08-14T02:00:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-13T22:00:00",
+                "utc": "2019-08-14T05:00:00Z"
+            },
+            "organization_id": "238310641441",
+            "created": "2019-05-21T20:00:06Z",
+            "changed": "2019-07-21T19:56:54Z",
+            "published": "2019-05-24T22:52:33Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 480,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "create_2.0",
+            "is_free": false,
+            "version": "3.0.0",
+            "summary": "\nCharles Smith's 20th Anniversary Presents...\nLUKAS NELSON & PROMISE OF THE REAL\nWhen: Tuesday, August 13\nDoors open at 7:00pmMusic starts a",
+            "logo_id": "63067481",
+            "organizer_id": "15979497933",
+            "venue_id": "33988864",
+            "category_id": "110",
+            "subcategory_id": "10002",
+            "format_id": "11",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/62227645563/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 224
+                    },
+                    "width": 3008,
+                    "height": 1504
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F63067481%2F238310641441%2F1%2Foriginal.20190529-161240?auto=compress&s=b6cfee2d7843c236aeddeece465e8e40",
+                    "width": 3008,
+                    "height": 2008
+                },
+                "id": "63067481",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F63067481%2F238310641441%2F1%2Foriginal.20190529-161240?h=200&w=450&auto=compress&rect=0%2C224%2C3008%2C1504&s=b7741e9721091c0ab8d931d12b09cee5",
+                "aspect_ratio": "2",
+                "edge_color": "#fdf9f6",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "Live Editing Session \u2014 Light & Airy",
+                "html": "Live Editing Session \u2014 Light &amp; Airy"
+            },
+            "description": {
+                "text": "Do you dream in light & airy? Join Kirk Mastin for a live editing session using our Fujicolor Original and Fujicolor Pushed packs. During this live session, Kirk will talk through how to achieve the light & airy look you dream about!This is an informal editing session, so as you feel comfortable, ask any questions you may have in the comments during the live session! We are here to help :)***Please note that this event takes place on our official Mastin Labs Facebook page\u2014 facebook.com/mastinlabs\u2014\u2014\u2014\u2014\u2014FAQs: - How do I submit one of my photos for editing? Please use the following link to submit your raw file (.CR2, .NEF, .DNG, .RAF & .ARW) for editing. Please only submit 1 image and name it your firstname.last name.preset. Be sure to include your requested preset for editing in the file name so he knows what pack to use. Dropbox\u2014 http://bit.ly/SubmitLiveEditImages- Will the editing session be available afterward? Yes, but we encourage you to attend live to ask questions and the comments are not monitored as closely after the event. - How much is the event? 100% free! Invite your friends :)- What will you do with my image after the event? After the live editing session is complete we will share the edited images as a post in our Facebook community group (http://bit.ly/MastinLabsCommunity)",
+                "html": "Do you dream in light &amp; airy? <BR><BR>Join Kirk Mastin for a live editing session using our Fujicolor Original and Fujicolor Pushed packs. During this live session, Kirk will talk through how to achieve the light &amp; airy look you dream about!<BR><BR>This is an informal editing session, so as you feel comfortable, ask any questions you may have in the comments during the live session! We are here to help :)<BR><BR>***Please note that this event takes place on our official Mastin Labs Facebook page\u2014 facebook.com/mastinlabs<BR><BR>\u2014\u2014\u2014\u2014\u2014<BR><BR>FAQs: <BR><BR>- How do I submit one of my photos for editing? Please use the following link to submit your raw file (.CR2, .NEF, .DNG, .RAF &amp; .ARW) for editing. Please only submit 1 image and name it your firstname.last name.preset. Be sure to include your requested preset for editing in the file name so he knows what pack to use. Dropbox\u2014 http://bit.ly/SubmitLiveEditImages<BR><BR>- Will the editing session be available afterward? Yes, but we encourage you to attend live to ask questions and the comments are not monitored as closely after the event. <BR><BR>- How much is the event? 100% free! Invite your friends :)<BR><BR>- What will you do with my image after the event? After the live editing session is complete we will share the edited images as a post in our Facebook community group (http://bit.ly/MastinLabsCommunity)"
+            },
+            "id": "63823880946",
+            "url": "https://www.eventbrite.com/e/live-editing-session-light-airy-tickets-63823880946?aff=ebapi",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-20T14:00:00",
+                "utc": "2019-08-20T21:00:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-08-20T14:45:00",
+                "utc": "2019-08-20T21:45:00Z"
+            },
+            "organization_id": "312847251808",
+            "created": "2019-06-19T23:42:07Z",
+            "changed": "2019-07-10T23:29:27Z",
+            "published": "2019-06-19T23:42:09Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": false,
+            "online_event": false,
+            "tx_time_limit": 480,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "facebook",
+            "is_free": true,
+            "version": "4.0.0",
+            "summary": "Do you dream in light & airy? Join Kirk Mastin for a live editing session using our Fujicolor Original and Fujicolor Pushed packs. During th",
+            "logo_id": "64176975",
+            "organizer_id": "23292544410",
+            "venue_id": "33406302",
+            "category_id": null,
+            "subcategory_id": null,
+            "format_id": null,
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/63823880946/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 60
+                    },
+                    "width": 1920,
+                    "height": 960
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F64176975%2F312847251808%2F1%2Foriginal.20190619-234215?auto=compress&s=22bd2fce50df15d1173579760f8553f9",
+                    "width": 1920,
+                    "height": 1080
+                },
+                "id": "64176975",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F64176975%2F312847251808%2F1%2Foriginal.20190619-234215?h=200&w=450&auto=compress&rect=0%2C60%2C1920%2C960&s=5a1731c6905520d4327a1c2c46f9cd8a",
+                "aspect_ratio": "2",
+                "edge_color": "#cdc6b0",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "Live Editing Session \u2014 Dialing in Skin Tone",
+                "html": "Live Editing Session \u2014 Dialing in Skin Tone"
+            },
+            "description": {
+                "text": "Have you ever been frustrated dialing in skin tones whilst editing? You are not alone. Don't let it get under your skin!Join Kirk Mastin for a live editing session using all our preset packs in Lightroom. During this live session, Kirk will talk through how dial in skin tones. This is an informal editing session, so as you feel comfortable, ask any questions you may have in the comments during the live session! We are here to help :)***Please note that this event takes place on our official Mastin Labs Facebook page\u2014 facebook.com/mastinlabs\u2014\u2014\u2014\u2014\u2014FAQs: - How do I submit one of my photos for editing? Please use the following link to submit your raw file (.CR2, .NEF, .DNG, .RAF & .ARW) for editing. Please only submit 1 image and name it your firstname.last name.preset. Be sure to include your requested preset for editing in the file name so he knows what pack to use. Dropbox\u2014 http://bit.ly/SubmitLiveEditImages- Will the editing session be available afterward? Yes, but we encourage you to attend live to ask questions and the comments are not monitored as closely after the event. - How much is the event? 100% free! Invite your friends :)- What will you do with my image after the event? After the live editing session is complete we will share the edited images as a post in our Facebook community group (http://bit.ly/MastinLabsCommunity)",
+                "html": "Have you ever been frustrated dialing in skin tones whilst editing? You are not alone. Don't let it get under your skin!<BR><BR>Join Kirk Mastin for a live editing session using all our preset packs in Lightroom. During this live session, Kirk will talk through how dial in skin tones. <BR><BR>This is an informal editing session, so as you feel comfortable, ask any questions you may have in the comments during the live session! We are here to help :)<BR><BR>***Please note that this event takes place on our official Mastin Labs Facebook page\u2014 facebook.com/mastinlabs<BR><BR>\u2014\u2014\u2014\u2014\u2014<BR><BR>FAQs: <BR><BR>- How do I submit one of my photos for editing? Please use the following link to submit your raw file (.CR2, .NEF, .DNG, .RAF &amp; .ARW) for editing. Please only submit 1 image and name it your firstname.last name.preset. Be sure to include your requested preset for editing in the file name so he knows what pack to use. Dropbox\u2014 http://bit.ly/SubmitLiveEditImages<BR><BR>- Will the editing session be available afterward? Yes, but we encourage you to attend live to ask questions and the comments are not monitored as closely after the event. <BR><BR>- How much is the event? 100% free! Invite your friends :)<BR><BR>- What will you do with my image after the event? After the live editing session is complete we will share the edited images as a post in our Facebook community group (http://bit.ly/MastinLabsCommunity)"
+            },
+            "id": "63820689400",
+            "url": "https://www.eventbrite.com/e/live-editing-session-dialing-in-skin-tone-tickets-63820689400?aff=ebapi",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-23T14:00:00",
+                "utc": "2019-07-23T21:00:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-23T14:45:00",
+                "utc": "2019-07-23T21:45:00Z"
+            },
+            "organization_id": "312847251808",
+            "created": "2019-06-19T22:59:08Z",
+            "changed": "2019-06-19T22:59:21Z",
+            "published": "2019-06-19T22:59:09Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": false,
+            "online_event": false,
+            "tx_time_limit": 480,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "facebook",
+            "is_free": true,
+            "version": "4.0.0",
+            "summary": "Have you ever been frustrated dialing in skin tones whilst editing? You are not alone. Don't let it get under your skin!Join Kirk Mastin for",
+            "logo_id": "64175553",
+            "organizer_id": "23292544410",
+            "venue_id": "33405274",
+            "category_id": null,
+            "subcategory_id": null,
+            "format_id": null,
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/63820689400/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 61
+                    },
+                    "width": 1920,
+                    "height": 960
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F64175553%2F312847251808%2F1%2Foriginal.20190619-225919?auto=compress&s=7d0aff8c8854d063800837c55bfe4e38",
+                    "width": 1920,
+                    "height": 1080
+                },
+                "id": "64175553",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F64175553%2F312847251808%2F1%2Foriginal.20190619-225919?h=200&w=450&auto=compress&rect=0%2C61%2C1920%2C960&s=400a0e7a8cd1e6e8bcff401a286d3c48",
+                "aspect_ratio": "2",
+                "edge_color": "#c0bfc2",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "2019 Fall Pup Squad - Ages 5-7",
+                "html": "2019 Fall Pup Squad - Ages 5-7"
+            },
+            "description": {
+                "text": "We are excited to announce the dates for our Fall Pup Squad!\u00a0Your child can wear an authentic uniform\u00a0with their very own pair of poms,\u00a0attend cheer and dance practices, and perform alongside UW Cheer and Dance in\u00a0Husky Stadium\u00a0at a Husky Football game, and\u00a0Alaska Airlines Arena\u00a0at a UW Volleyball game. Your athlete will have the opportunity to attend 3 practices and perform at 1 Husky Football and 1 Husky Volleyball game.\u00a0 \nQualifications:\nThis session of the Fall Husky Pup Squad is open to all youths ages 5-7 and is limited to the first 100 registrants. All participants are recommended to attend all practices and performances. Routine material will also be available online after the first practice.\nFall Practice Schedule:\nAll practices will be held at the University of Washington Alaska Airlines Arena (3870 Montlake Blvd. NE \u2013 Seattle, WA 98195-4070). Please wear comfortable clothing, sneakers, and bring a water bottle, as we will be working hard while having fun. Practices are scheduled for the following dates:\n\nTuesday, Sept 3 - 6:30pm - 8:00pm\nThursday, Sept. 5 - 6:30pm - 8:00pm\nVolleyball Performance Practice - TBD\n\n\nFall Performance Schedule:\nTwo performances are included in the fall season. Your child will perform at the following UW Athletic Events:\n\nSaturday, Sept 7- UW Football vs. California\n\nPerformance in Husky Stadium during a timeout\n\n\n\n\nVolleyball performance TBD\n\nPerformance at Halftime\n\n\nFall Season Cost:\nThe program fee is $300 per child.\u00a0This fee covers everything listed below. If you are a returner and would like to use last year's uniform enter the code \"PupSquad\" to receive a discount.\u00a0 After registration is closed all purchases are final and no refunds will be given.\u00a0\n\nUW Husky White Uniform\nAuthentic UW Pom Poms\nParticipant Game Ticket\nGame Day UW Face Tattoo\nHair Bow\nRoutine taught by UW Cheerleaders along with other Cheer Technique\n\n*Spectator tickets can be purchased at $35 for UW Football. \n*Spectator ticket can be purchased at $5 for UW Volleyball.\n",
+                "html": "<P><SPAN><SPAN>We are excited to announce the dates for our Fall Pup Squad!<\/SPAN><SPAN>\u00a0Your child can wear an authentic uniform\u00a0with their very own pair of poms,\u00a0attend cheer and dance practices, and perform alongside UW Cheer and Dance in\u00a0<\/SPAN><STRONG>Husky Stadium<\/STRONG><SPAN>\u00a0at a Husky Football game, and\u00a0<STRONG>Alaska Airlines Arena<\/STRONG>\u00a0at a UW Volleyball game. Your athlete will have the opportunity to attend 3 practices and perform at 1 Husky Football and 1 Husky Volleyball game.\u00a0 <BR><\/SPAN><\/SPAN><\/P>\n<P><STRONG>Qualifications:<\/STRONG><\/P>\n<P>This session of the Fall Husky Pup Squad is open to all youths ages 5-7 and is limited to the first 100 registrants. All participants are recommended to attend all practices and performances. Routine material will also be available online after the first practice.<\/P>\n<P><STRONG>Fall Practice Schedule:<\/STRONG><\/P>\n<P>All practices will be held at the University of Washington Alaska Airlines Arena (3870 Montlake Blvd. NE \u2013 Seattle, WA 98195-4070). Please wear comfortable clothing, sneakers, and bring a water bottle, as we will be working hard while having fun. Practices are scheduled for the following dates:<\/P>\n<UL>\n<LI>Tuesday, Sept 3 - 6:30pm - 8:00pm<BR><\/LI>\n<LI>Thursday, Sept. 5 - 6:30pm - 8:00pm<\/LI>\n<LI>Volleyball Performance Practice - TBD<BR><\/LI>\n<\/UL>\n<P><BR><\/P>\n<P><STRONG>Fall Performance Schedule:<\/STRONG><\/P>\n<P>Two performances are included in the fall season. Your child will perform at the following UW Athletic Events:<\/P>\n<UL>\n<LI><STRONG>Saturday, Sept 7- UW Football vs. California<\/STRONG><BR>\n<UL>\n<LI>Performance in Husky Stadium during a timeout<BR><\/LI>\n<\/UL>\n<\/LI>\n<\/UL>\n<UL>\n<LI><STRONG>Volleyball performance TBD<\/STRONG><BR><\/LI>\n<UL>\n<LI>Performance at Halftime<\/LI>\n<\/UL>\n<\/UL>\n<P><STRONG>Fall Season Cost:<\/STRONG><\/P>\n<P>The program fee is $300 per child.\u00a0This fee covers everything listed below. If you are a returner and would like to use last year's uniform enter the code \"PupSquad\" to receive a discount.\u00a0 After registration is closed all purchases are final and no refunds will be given.\u00a0<BR><\/P>\n<UL>\n<LI>UW Husky White Uniform<\/LI>\n<LI>Authentic UW Pom Poms<\/LI>\n<LI>Participant Game Ticket<\/LI>\n<LI>Game Day UW Face Tattoo<\/LI>\n<LI>Hair Bow<\/LI>\n<LI>Routine taught by UW Cheerleaders along with other Cheer Technique<\/LI>\n<\/UL>\n<P>*Spectator tickets can be purchased at $35 for UW Football. <BR><\/P>\n<P>*Spectator ticket can be purchased at $5 for UW Volleyball.<\/P>\n<P><BR><\/P>"
+            },
+            "id": "61120827039",
+            "url": "https://www.eventbrite.com/e/2019-fall-pup-squad-ages-5-7-tickets-61120827039?aff=ebapi",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-09-03T18:30:00",
+                "utc": "2019-09-04T01:30:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-10-26T21:00:00",
+                "utc": "2019-10-27T04:00:00Z"
+            },
+            "organization_id": "180335318222",
+            "created": "2019-04-30T20:06:47Z",
+            "changed": "2019-07-15T18:52:50Z",
+            "published": "2019-04-30T20:19:14Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 900,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "create_2.0",
+            "is_free": false,
+            "version": "3.0.0",
+            "summary": "We are excited to announce the dates for our Fall Pup Squad!\u00a0Your child can wear an authentic uniform\u00a0with their very own pair of poms,\u00a0atte",
+            "logo_id": "61458233",
+            "organizer_id": "10947653871",
+            "venue_id": "34178627",
+            "category_id": "108",
+            "subcategory_id": null,
+            "format_id": "100",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/61120827039/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 121
+                    },
+                    "width": 2048,
+                    "height": 1024
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F61458233%2F155517811278%2F1%2Foriginal.jpg?auto=compress&s=6f495599f62d61ad518a1b7b75d20b0b",
+                    "width": 2048,
+                    "height": 1364
+                },
+                "id": "61458233",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F61458233%2F155517811278%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C121%2C2048%2C1024&s=b6eff80f4873e27834d1b379d40b8574",
+                "aspect_ratio": "2",
+                "edge_color": "#8d8e8e",
+                "edge_color_set": true
+            }
+        },
+        {
+            "name": {
+                "text": "2019 City of Seattle Reverse Vendor Trade Show",
+                "html": "2019 City of Seattle Reverse Vendor Trade Show"
+            },
+            "description": {
+                "text": "This is an opportunity for vendors to introduce themselves to a variety of City of Seattle Departments and other public agency representatives. \u00a0Learn about upcoming solicitations, procurement opportunities, sustainable purchasing and network with other local vendors. Women-owned and minority-owned businesses are especially encouraged to attend. \u00a0Doors open at 11a.m.\u00a0\r\nIf you have questions about this event, please contact Kjell Elmer at 206-727-8677 or kjell.elmer@seattle.gov\r\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0 \r\n\u00a0\r\n\u00a0\r\n\u00a0\r\n**Orgainser of this event is the City of Seattle c/o Tabor 100 Eventbrite Account",
+                "html": "<P><SPAN STYLE=\"font-family: 'andale mono', times; font-size: medium;\">This is an opportunity for vendors to introduce themselves to a variety of City of Seattle Departments and other public agency representatives. \u00a0Learn about upcoming solicitations, procurement opportunities, sustainable purchasing and network with other local vendors. Women-owned and minority-owned businesses are especially encouraged to attend. \u00a0Doors open at 11a.m.\u00a0<\/SPAN><\/P>\r\n<P><SPAN STYLE=\"font-family: 'andale mono', times; font-size: medium;\">If you have questions about this event, please contact Kjell Elmer at 206-727-8677 or <A HREF=\"mailto:kjell.elmer@seattle.gov\" REL=\"nofollow noopener noreferrer\">kjell.elmer@seattle.gov<\/A><\/SPAN><\/P>\r\n<P><SPAN><IMG ALT=\"\" SRC=\"https://cdn.evbuc.com/eventlogos/100133201/coscitypurchasingandcontractingsvcslogo-1.png\" HEIGHT=\"49\" WIDTH=\"197\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0 <IMG ALT=\"\" SRC=\"https://cdn.evbuc.com/eventlogos/100133201/seattlecenterlogo-1.jpg\" HEIGHT=\"50\" WIDTH=\"152\"><\/SPAN><\/P>\r\n<P>\u00a0<\/P>\r\n<P>\u00a0<\/P>\r\n<P>\u00a0<\/P>\r\n<P>**Orgainser of this event is the City of Seattle c/o Tabor 100 Eventbrite Account<\/P>"
+            },
+            "id": "60505579818",
+            "url": "https://www.eventbrite.com/e/2019-city-of-seattle-reverse-vendor-trade-show-tickets-60505579818?aff=ebapi",
+            "start": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-31T11:00:00",
+                "utc": "2019-07-31T18:00:00Z"
+            },
+            "end": {
+                "timezone": "America/Los_Angeles",
+                "local": "2019-07-31T15:00:00",
+                "utc": "2019-07-31T22:00:00Z"
+            },
+            "organization_id": "100834133407",
+            "created": "2019-04-17T02:07:40Z",
+            "changed": "2019-07-20T19:16:10Z",
+            "published": "2019-04-17T02:22:14Z",
+            "capacity": null,
+            "capacity_is_custom": null,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "online_event": false,
+            "tx_time_limit": 480,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "create_2.0",
+            "is_free": true,
+            "version": "3.0.0",
+            "summary": "This is an opportunity for vendors to introduce themselves to a variety of City of Seattle Departments and other public agency representativ",
+            "logo_id": "60514128",
+            "organizer_id": "6567336795",
+            "venue_id": "31967116",
+            "category_id": "101",
+            "subcategory_id": "1001",
+            "format_id": "3",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/60505579818/",
+            "is_externally_ticketed": false,
+            "logo": {
+                "crop_mask": {
+                    "top_left": {
+                        "x": 0,
+                        "y": 45
+                    },
+                    "width": 796,
+                    "height": 398
+                },
+                "original": {
+                    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F60514128%2F100834133407%2F1%2Foriginal.20190417-021208?auto=compress&s=e259c0d1ecde07dc0d3ecdba710b4051",
+                    "width": 796,
+                    "height": 489
+                },
+                "id": "60514128",
+                "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F60514128%2F100834133407%2F1%2Foriginal.20190417-021208?h=200&w=450&auto=compress&rect=0%2C45%2C796%2C398&s=5902e97560b6eb8625d8e721326f737e",
+                "aspect_ratio": "2",
+                "edge_color": "#f8f6f7",
+                "edge_color_set": true
+            }
+        }]
+        }

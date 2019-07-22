@@ -19,13 +19,20 @@ class Movies(db.Model):
         Retrieves MovieDB API movie data.
         Returns an Movies instance.
         """
-        # Generate API URL
         MOVIE_API_KEY = os.getenv('MOVIE_API_KEY')
         url = 'https://api.themoviedb.org/3/search/movie/'
         url += f'?api_key={MOVIE_API_KEY}&language=en-US&page=1&query={query}'
 
-        # Request MovieDB API data
         api_data = requests.get(url).json()
+
+        return Movies.instantiate_movies(api_data)
+
+    @staticmethod
+    def instantiate_movies(api_data):
+        """
+        Takes in MovieDB API data.
+        Returns a Movies object.
+        """
         movies = []
         for movie in api_data['results'][:5]:
             title = movie['title']
@@ -45,5 +52,4 @@ class Movies(db.Model):
                 'released_on': released_on
             })
 
-        # Create a Movies instance
         return Movies(movies=movies)

@@ -19,18 +19,25 @@ class Weather(db.Model):
         Retrieves weather data from the Dark Sky API.
         Returns a Weather instance.
         """
-        # Generate API URL
         WEATHER_API_KEY = os.getenv('WEATHER_API_KEY')
         url = 'https://api.darksky.net/forecast/'
         url += f'{WEATHER_API_KEY}/{lat},{long}'
 
-        # Request Dark Sky API data
-        result = requests.get(url).json()
-        result = result['daily']['data']
-        dailies = []
-        for day in result:
-            date_string = strftime('%A %B %d, %Y', localtime(day['time']))
-            dailies.append({'time': date_string, 'forecast': day['summary']})
+        api_data = requests.get(url).json()
+        api_data = api_data['daily']['data']
 
-        # Create a Weather instance
+        return Weather.instantiate_weather(api_data)
+
+    @staticmethod
+    def instantiate_weather(api_data):
+        """
+        Takes in Dark Sky API data.
+        Returns a Weather object.
+        """
+        dailies = []
+        for day in api_data:
+            date_string = strftime('%A %B %d, %Y', localtime(day['time']))
+            dailies.append({'time': date_string,
+                            'forecast': day['summary']})
+
         return Weather(dailies=dailies)
