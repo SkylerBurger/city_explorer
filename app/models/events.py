@@ -20,18 +20,20 @@ class Events(db.Model):
         Retrieves Eventbrite API event data.
         Returns an Events instance.
         """
-        # Generate API URL
         EVENTBRITE_API_KEY = os.getenv('EVENTBRITE_API_KEY')
         url = f'https://www.eventbriteapi.com/v3/events/search'
         url += f'?token={EVENTBRITE_API_KEY}&location.address={query}'
 
-        # Request Eventbrite API data
         api_data = requests.get(url).json()
 
         return Events.instantiate_events(api_data)
 
     @staticmethod
     def instantiate_events(api_data):
+        """
+        Takes in Eventbrite API data.
+        Returns an Events object.
+        """
         events = []
         for event in api_data['events'][:10]:
             link = event['url']
@@ -48,5 +50,4 @@ class Events(db.Model):
                 'summary': summary
             })
 
-        # Create an Events instance
         return Events(events=events)

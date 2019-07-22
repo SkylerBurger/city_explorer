@@ -32,6 +32,10 @@ class Trails(db.Model):
 
     @staticmethod
     def instantiate_trails(api_data):
+        """
+        Takes in Hiking Project API data.
+        Returns a Trails object.
+        """
         trails = []
         for trail in api_data['trails'][:5]:
             name = trail.get('name')

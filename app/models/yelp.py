@@ -16,19 +16,21 @@ class Yelp(db.Model):
         Retrieves Yelp API restaurants data.
         Returns a Yelp instance.
         """
-        # Generate API URL and headers
         YELP_API_KEY = os.getenv('YELP_API_KEY')
         url = f'https://api.yelp.com/v3/businesses/search'
         url += f'?location={query}&limit=10'
         headers = {"Authorization": f'Bearer {YELP_API_KEY}'}
 
-        # Request Yelp API data
         api_data = requests.get(url, headers=headers).json()
         return Yelp.instantiate_yelp(api_data)
 
 
     @staticmethod
     def instantiate_yelp(api_data):
+        """
+        Takes in Yelp API data.
+        Returns a Yelp object.
+        """
         restaurants = []
         for result in api_data.get('businesses'):
             name = result['name']
@@ -44,5 +46,4 @@ class Yelp(db.Model):
                 'url': url
             })
 
-        # Create a Yelp instance
         return Yelp(restaurants=restaurants)
