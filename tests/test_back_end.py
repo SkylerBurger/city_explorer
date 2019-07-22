@@ -2,6 +2,7 @@ from app.models.location import Location
 from app.models.weather import Weather
 from app.models.yelp import Yelp
 from app.models.events import Events
+from app.models.movies import Movies
 
 import json
 
@@ -44,6 +45,14 @@ def events():
     return Events.instantiate_events(contents)
 
 
+@pytest.fixture
+def movies():
+    with open('tests/demo_moviesdb_data.json') as file_object:
+        contents = json.load(file_object)
+
+    return Movies.instantiate_movies(contents)
+
+
 # =====
 # TESTS
 # =====
@@ -80,3 +89,9 @@ def test_create_events(events):
     with open('tests/demo_events.json') as file_object:
         contents = json.load(file_object)
     assert events.events == contents
+
+
+def test_create_movies(movies):
+    with open('tests/demo_movies.json') as file_object:
+        contents = json.load(file_object)
+    assert movies.movies == contents

@@ -26,6 +26,11 @@ class Movies(db.Model):
 
         # Request MovieDB API data
         api_data = requests.get(url).json()
+
+        return Movies.instantiate_movies(api_data)
+
+    @staticmethod
+    def instantiate_movies(api_data):
         movies = []
         for movie in api_data['results'][:5]:
             title = movie['title']
