@@ -3,6 +3,7 @@ from app.models.weather import Weather
 from app.models.yelp import Yelp
 from app.models.events import Events
 from app.models.movies import Movies
+from app.models.trails import Trails
 
 import json
 
@@ -53,6 +54,14 @@ def movies():
     return Movies.instantiate_movies(contents)
 
 
+@pytest.fixture
+def trails():
+    with open('tests/demo_hiking_project_data.json') as file_object:
+        contents = json.load(file_object)
+
+    return Trails.instantiate_trails(contents)
+
+
 # =====
 # TESTS
 # =====
@@ -95,3 +104,9 @@ def test_create_movies(movies):
     with open('tests/demo_movies.json') as file_object:
         contents = json.load(file_object)
     assert movies.movies == contents
+
+
+def test_create_trails(trails):
+    with open('tests/demo_trails.json') as file_object:
+        contents = json.load(file_object)
+    assert trails.trails == contents
