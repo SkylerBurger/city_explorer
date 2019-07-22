@@ -27,7 +27,6 @@ class Events(db.Model):
 
         # Request Eventbrite API data
         api_data = requests.get(url).json()
-        print('******API URL: ', url)
 
         return Events.instantiate_events(api_data)
 
